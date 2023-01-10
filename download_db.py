@@ -10,23 +10,8 @@
 import statistics
 import math
 import mysql.connector
+from config import *
 
-
-host = '10.149.81.50'
-
-port = '3307'
-
-user = 'chip'
-
-passwd = 'g4l!39o!'
-
-db = 'CHIP_INSPECTOR'
-
-db_cosmic = 'COSMIC'
-
-db_chip = 'CHIP_DB'
-
-charset='utf8'
 
 def get_canonical_transcripts():
     """ 
