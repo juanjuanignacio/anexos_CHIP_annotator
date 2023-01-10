@@ -1,18 +1,18 @@
-host = '10.149.81.50'
+host = ''
 
-port = '3307'
+port = ''
 
-user = 'chip'
+user = ''
 
-passwd = 'g4l!39o!'
+passwd = ''
 
-db = 'CHIP_INSPECTOR'
+db = ''
 
 db_cosmic = 'COSMIC'
 
-db_chip = 'CHIP_DB'
+db_chip = ''
 
-charset='utf8'
+charset=''
 
 # Fraction of samples of the cohort to set the threshold used to discard mutations present
 # in too many samples as presumable germinal variant or artifact
