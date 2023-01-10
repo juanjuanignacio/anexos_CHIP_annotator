@@ -8,6 +8,11 @@ import mysql.connector
 import pandas as pd
 from config import *
 
+'''
+    Lee el fichero VCF con todas las anotaciones y genera la salida en beacon
+    y json para leer facilmente con pandas.
+    Aplica todos los filtros.   
+'''
 
 def get_canonical_transcripts():
 	with open("canonical_transcripts.txt", 'r') as f:
